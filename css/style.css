@@ -21,9 +21,6 @@ body {
 	border-radius: 20px;
 }
 
-
-
-
 #todo-counter {
     margin-top: 2em;
     font-size: 1.3em;
@@ -36,7 +33,6 @@ body {
 #todo-list {
 margin-top: 1em;
 }
-
 
 /*
 * Items

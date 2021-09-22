@@ -2,18 +2,7 @@
  * Todolist
  */
  let tasks = [
-    {
-      text: 'Faire une todo-list en JS', 
-      done: true,                     
-    },
-    {
-      text: 'Faire une todo-list en React',
-      done: false,
-    },
-    {
-      text: 'Coder Facebook',
-      done: false,
-    }
+    
   ];
   
   
@@ -130,6 +119,9 @@
       app.init();
     }
   
+    
   };
+
+  
   
   document.addEventListener('DOMContentLoaded', app.init);
