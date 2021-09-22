@@ -79,14 +79,15 @@
         app.createTodo(todoObject);
       });
     },
+
     createTodo: (todoObject) => {
       
       const todo = document.createElement('li');
       const checkbox = document.createElement('input');
       const label = document.createElement('label');
       const deleteButton = document.createElement('button');
+      deleteButton.className = 'delete-button';
   
-   
       todo.className = 'todo';
       checkbox.type = 'checkbox';
       checkbox.id = todoObject.text;
